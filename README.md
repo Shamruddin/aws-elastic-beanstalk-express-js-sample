@@ -10,3 +10,12 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+BuildSpec Commands--
+version: 0.2
+phases:
+    build:
+        commands:
+            - npm i --save
+artifacts:
+    files:
+        - '**/*'
